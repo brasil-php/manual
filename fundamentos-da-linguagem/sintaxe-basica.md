@@ -53,7 +53,25 @@ As tags ASP &lt;%, %&gt;, &lt;%= e a script tag &lt;script language="php"&gt; fo
 
 ## Instruções
 
-Como no C ou Perl, o PHP requer que as instruções sejam terminadas com um ponto-e-vírgula ao final de cada comando. A tag de fechamento de um bloco de código PHP automaticamente implica em um ponto-e-vírgula; você não precisa ter um ponto-e-vírgula terminando a última linha de um bloco PHP. A tag de fechamento do bloco irá incluir uma nova linha logo após, se estiver presente.
+Como no C ou Perl, o PHP requer que as instruções sejam terminadas com um ponto-e-vírgula \(`;`\) ao final de cada comando. A tag de fechamento de um bloco de código PHP automaticamente implica em um ponto-e-vírgula, ou seja, não é preciso ter um ponto-e-vírgula terminando a última linha de um bloco PHP. A tag de fechamento do bloco irá incluir uma nova linha logo após, se estiver presente.
+
+```php
+<?php
+echo 'Isto é '; echo 'um teste';
+?>
+<?php echo 'Isto será impresso' ?>
+
+<?php echo 'Nós omitimos a última tag de fechamento';
+```
+
+> Isto é um teste  
+> Isto será impresso  
+>   
+> Nós omitimos a última tag de fechamento
+
+{% hint style="info" %}
+É possível colocar vários comandos em uma mesma linha separados por `;`, mas isto, geralmente, não é considerado uma boa prática
+{% endhint %}
 
 ## Comentários
 
