@@ -21,9 +21,11 @@ Loren ipsum
 
 É possível encontrar muita documentação na internet, em videos, forums e grupos do telegram, mas sem dúvida, a melhor que você poderá encontrar será o seu próprio manual online, traduzido em diversas linguás.
 
-[https://www.php.net/manual/pt\_BR/](https://www.php.net/manual/pt_BR/)
+[https://www.php.net/manual/pt\_BR](https://www.php.net/manual/pt_BR/)
 
+## Curadoria
 
+Loren ipsum
 
 ## Preparando o ambiente
 

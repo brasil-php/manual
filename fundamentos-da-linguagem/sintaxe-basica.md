@@ -7,7 +7,7 @@ description: >-
 # Sintaxe Básica
 
 {% hint style="info" %}
-Os exemplos abaixo desta seção podem usar o construtor de linguagem `echo` e valores em formato `string`. Estes dois tópicos serão tratados à seguir.
+Os exemplos abaixo desta seção podem usar o [construtor de linguagem](https://brasil-php.gitbook.io/manual/fundamentos-da-linguagem/construtores-de-linguagem) `echo` e [valores em formato](https://brasil-php.gitbook.io/manual/fundamentos-da-linguagem/tipos-de-dados) `string`. Estes dois tópicos serão tratados à seguir.
 {% endhint %}
 
 ## PHP tags
@@ -45,19 +45,22 @@ echo "Isto também é PHP";
 > Isto não é  
 > Isto também é PHP
 
-O PHP também permite a tag curta `<?` \(cujo uso é desencorajado pois essa opção está disponível somente quando habilitada na diretiva [short\_open\_tag](https://www.php.net/manual/pt_BR/ini.core.php#ini.short-open-tag) no arquivo de configuração `php.ini`, ou quando o PHP tiver sido compilado com a opção **--enable-short-tags** \).
+O PHP também permite a tag curta `<?` \(cujo uso é desencorajado pois essa opção está disponível somente quando habilitada na diretiva [short\_open\_tag](https://www.php.net/manual/pt_BR/ini.core.php#ini.short-open-tag) no arquivo de configuração `php.ini`, ou quando o PHP tiver sido compilado com a opção `--enable-short-tags` \).
 
 ```php
 <? echo "Isto é PHP" ?>
 <?= "Isto também é PHP" ?>
 ```
 
+> Isto é PHP  
+> Isto também é PHP
+
 {% hint style="info" %}
-A tag `<?=` sempre está disponível, independente do da configuração [short\_open\_tag](https://php.net/short_open_tag) do `.ini`, à partir da versão 5.4
+A tag `<?=` é um atalho para o `echo`e sempre está disponível, independente da configuração [short\_open\_tag](https://php.net/short_open_tag) \(diretiva do arquivo de configuração `.ini`\), à partir da versão 5.4
 {% endhint %}
 
 {% hint style="danger" %}
-As tags ASP &lt;%, %&gt;, &lt;%= e a script tag &lt;script language="php"&gt; foram removidos do PHP na versão 7
+As tags ASP &lt;%, %&gt;, &lt;%= e a script tag &lt;script language="php"&gt; foram removidos do PHP à partir versão 7.0
 {% endhint %}
 
 ## Instruções
@@ -141,30 +144,4 @@ echo 'Um teste final';
 
 > Isto é um teste  
 > Um teste final
-
-## Trabalhando com HTML
-
-Tudo o que estiver fora das tags PHP \(`<?php` e `?>`\) é ignorado pelo interpretador, o que permite arquivos PHP de conteúdo misto. É muito comum usar o PHP seja na construção de documentos HTML para a criação de templates. Veja o trecho de código à seguir.
-
-{% code-tabs %}
-{% code-tabs-item title="index.php" %}
-```php
-<p>
-Isto vai ser ignorado pelo PHP, 
-mas estará no resultado do processamento deste documento.
-</p>
-<?php echo 'Este trecho será interpretado.'; ?>
-<p>Este trecho também estará no resultado.</p>
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-> &lt;p&gt;  
-> Isto vai ser ignorado pelo PHP,   
-> mas estará no resultado final do processamento deste documento.  
-> &lt;/p&gt;  
-> Este trecho será interpretado.  
-> &lt;p&gt;Este trecho também estará no resultado final.&lt;/p&gt;
-
-
 
