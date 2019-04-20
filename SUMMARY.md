@@ -4,6 +4,7 @@
 * [Primeiros passos com o PHP](primeiros-passos-com-o-php.md)
 * [Fundamentos da linguagem](fundamentos-da-linguagem/README.md)
   * [Sintaxe Básica](fundamentos-da-linguagem/sintaxe-basica.md)
+  * [Construtores de linguagem](fundamentos-da-linguagem/construtores-de-linguagem.md)
   * [Operadores](fundamentos-da-linguagem/operadores.md)
   * [Operadores binários](fundamentos-da-linguagem/operadores-binarios.md)
   * [Variáveis](fundamentos-da-linguagem/untitled.md)

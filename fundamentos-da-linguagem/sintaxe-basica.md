@@ -6,6 +6,10 @@ description: >-
 
 # Sintaxe Básica
 
+{% hint style="info" %}
+Os exemplos abaixo desta seção podem usar o construtor de linguagem `echo` e valores em formato `string`. Estes dois tópicos serão tratados à seguir.
+{% endhint %}
+
 ## PHP tags
 
 Quando o PHP interpreta um arquivo ele procura pelas tags de abertura e fechamento, `<?php` e `?>`, que dizem ao PHP para iniciar ou parar a interpretação do código entre elas. Quando criamos um arquivo que será processado pelo interpretador precisamos usar. esses dois identificadores para designar que o trecho será executado pelo interpretador ou simplesmente impresso.
@@ -41,7 +45,12 @@ echo "Isto também é PHP";
 > Isto não é  
 > Isto também é PHP
 
-O PHP também permite a tag curta _&lt;?_ \(cujo uso é desencorajado pois essa opção está disponível somente quando habilitada na diretiva [short\_open\_tag](https://www.php.net/manual/pt_BR/ini.core.php#ini.short-open-tag) no arquivo de configuração `php.ini`, ou quando o PHP tiver sido compilado com a opção **--enable-short-tags** \).
+O PHP também permite a tag curta `<?` \(cujo uso é desencorajado pois essa opção está disponível somente quando habilitada na diretiva [short\_open\_tag](https://www.php.net/manual/pt_BR/ini.core.php#ini.short-open-tag) no arquivo de configuração `php.ini`, ou quando o PHP tiver sido compilado com a opção **--enable-short-tags** \).
+
+```php
+<? echo "Isto é PHP" ?>
+<?= "Isto também é PHP" ?>
+```
 
 {% hint style="info" %}
 A tag `<?=` sempre está disponível, independente do da configuração [short\_open\_tag](https://php.net/short_open_tag) do `.ini`, à partir da versão 5.4
@@ -70,7 +79,7 @@ echo 'Isto é '; echo 'um teste';
 > Nós omitimos a última tag de fechamento
 
 {% hint style="info" %}
-É possível colocar vários comandos em uma mesma linha separados por `;`, mas isto, geralmente, não é considerado uma boa prática
+É possível colocar vários comandos em uma mesma linha separados por `;`, mas isto geralmente não é considerado uma boa prática
 {% endhint %}
 
 ## Comentários
@@ -142,7 +151,7 @@ Tudo o que estiver fora das tags PHP \(`<?php` e `?>`\) é ignorado pelo interpr
 ```php
 <p>
 Isto vai ser ignorado pelo PHP, 
-mas estará no resultado do processamento desse documento.
+mas estará no resultado do processamento deste documento.
 </p>
 <?php echo 'Este trecho será interpretado.'; ?>
 <p>Este trecho também estará no resultado.</p>
@@ -152,7 +161,7 @@ mas estará no resultado do processamento desse documento.
 
 > &lt;p&gt;  
 > Isto vai ser ignorado pelo PHP,   
-> mas estará no resultado final do processamento desse documento.  
+> mas estará no resultado final do processamento deste documento.  
 > &lt;/p&gt;  
 > Este trecho será interpretado.  
 > &lt;p&gt;Este trecho também estará no resultado final.&lt;/p&gt;
