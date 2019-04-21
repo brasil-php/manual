@@ -7,7 +7,7 @@ description: >-
 # Sintaxe Básica
 
 {% hint style="info" %}
-Os exemplos abaixo desta seção podem usar o [construtor de linguagem](https://brasil-php.gitbook.io/manual/fundamentos-da-linguagem/construtores-de-linguagem) `echo` e [valores em formato](https://brasil-php.gitbook.io/manual/fundamentos-da-linguagem/tipos-de-dados) `string`. Estes dois tópicos serão tratados à seguir.
+Os exemplos abaixo desta seção podem usar o [construtor de linguagem](https://manual.php-br.org/fundamentos-da-linguagem/construtores-de-linguagem) `echo` e [valores em formato](https://manual.php-br.org/fundamentos-da-linguagem/tipos-de-dados) `string`. Estes dois tópicos serão tratados à seguir.
 {% endhint %}
 
 ## PHP tags
