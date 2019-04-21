@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Apresentando o PHP](README.md)
-* [Primeiros passos com o PHP](primeiros-passos-com-o-php.md)
 * [Fundamentos da linguagem](fundamentos-da-linguagem/README.md)
   * [Sintaxe Básica](fundamentos-da-linguagem/sintaxe-basica.md)
   * [Construtores de linguagem](fundamentos-da-linguagem/construtores-de-linguagem.md)
@@ -21,6 +20,7 @@
   * [Namespaces](fundamentos-da-linguagem/namespaces.md)
   * [Generators](fundamentos-da-linguagem/generators.md)
   * [Unicode](fundamentos-da-linguagem/unicode.md)
+* [Primeiros passos com o PHP](primeiros-passos-com-o-php.md)
 * [Trabalhando com HTML](trabalhando-com-html.md)
 * [Configurações](configuracoes.md)
 
