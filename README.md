@@ -13,9 +13,9 @@ PHP, que significa "PHP: Hypertext Preprocessor", é uma linguagem de programaç
 
 ## Pra que serve o PHP?
 
-Como pode ser visto no próximo tópico o PHP foi criado inicialmente para produzir páginas pessoais em HTML. Atualmente o PHP tem sido amplamente usado não só para criar páginas HTML, mas também na criação de **API**s e **WebServices** em geral gerando saídas em formatos de dados apropriados como **JSON** e **XML**. Também é comum ver o PHP em **Bots** e rotinas que rodam no lado do servidor como **Queues** e **WebHooks**. Há ainda implementações de ferramentas que usam PHP de forma **assíncrona** abrindo portas para **Chats** e comunicações em **Realtime** através de sockets.
+Como pode ser visto no próximo tópico o PHP foi criado inicialmente para produzir páginas pessoais em HTML, mas isso já mudou a muitos anos. Atualmente o PHP é amplamente usado não só na confecção de páginas HTML, mas também na criação de **API**s e **WebServices** em geral gerando saídas em formatos de dados apropriados como **JSON** e **XML**. Também é comum ver o PHP em **Bots** e rotinas que rodam no lado do servidor como **Queues** e **WebHooks**. Há ainda implementações de ferramentas que usam PHP de forma **assíncrona** abrindo portas para **Chats** e comunicações em **Realtime** através de sockets.
 
-PHP acabou se tornando uma boa opção para uma linguagem de template, mas não parou por ai e atualmente pode ser usado em diversos tipos de aplicação e finalidade.
+PHP acabou se tornando uma boa opção para uma linguagem de template, mas não parou por ai e correntemente pode ser usado em diversos tipos de aplicação e finalidade.
 
 ## A trajetória do PHP
 
