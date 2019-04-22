@@ -22,5 +22,6 @@
   * [Unicode](fundamentos-da-linguagem/unicode.md)
 * [Primeiros passos com o PHP](primeiros-passos-com-o-php.md)
 * [Trabalhando com HTML](trabalhando-com-html.md)
+* [Usando o PHP no terminal](usando-o-php-no-terminal.md)
 * [Configurações](configuracoes.md)
 
