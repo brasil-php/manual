@@ -148,5 +148,17 @@ Para conhecer mais sobre o uso do PHP no terminal leia a seção [Usando o PHP n
 
 ## PHP e o HTTP
 
-Loren ipsum
+Quando usado na criação de sites e aplicações web é comum ver o PHP respondendo à solicitações de URLs através do protocolo HTTP, entretanto o PHP não possui um servidor HTTP apropriado para ser usado em produção. Ele até possui um servidor HTTP embutido, mas que tem a finalidade de ajudar em ambientes locais de desenvolvimento ou na criação de pequenas provas de conceito.
+
+Para servir páginas da web é necessário um servidor HTTP. Servidores HTTP são ferramentas complexas e elaboradas que possuem diversos recursos que o servidor embutido do PHP não possui e que não valeria à pena investir tempo em desenvolver porque já existem ferramentas maduras no mercado para isso como [Apache](https://httpd.apache.org/) e [Nginx](https://www.nginx.com).
+
+O uso do PHP via HTTP implica na utilização de um servidor que provê conteúdo através desse protocolo e que conversa com o PHP quando o conteúdo solicitado tiver alguma relação com PHP.
+
+### Módulo para o Apache
+
+Uma das formas mais populares de uso do PHP foi, por muitos anos, como um módulo do Apache. Esta abordagem era simples de se configurar, mas tinha alguns problemas de performance.
+
+### PHP FastCGI Process Manager  \(PHP-FPM\)
+
+Para corrigir os problemas de performance do uso do PHP como módulo foram desenvolvidas estratégias de combinação do PHP com os servidores web através de sockets. Essa é abordagem adotada pelo PHP-FPM onde um socket um serviço fica rodando intermitentemente no sistema operacional aguardando solicitações de recursos através de uma porta de comunicação. Com isso o tempo de troca de contexto e inicialização do serviço de interpretação do PHP foi zerado e a performance dos pedidos HTTP ao PHP ficou cada vez mais interessante.
 
