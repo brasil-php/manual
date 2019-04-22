@@ -18,7 +18,7 @@ $variavel = 'outraVariavel';
 echo $$outraVariavel; // 10
 ```
 
-Esta prática pode ser útil em momentos em que você precise acessar dinamitante o valor de uma variável.
+Esta prática pode ser útil em momentos em que você precise acessar dinâmicante o valor de uma variável.
 
 {% hint style="danger" %}
 Essa abordagem pode gerar fluxos que dificultam a leitura do algoritmo. Use com moderação.
