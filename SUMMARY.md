@@ -23,5 +23,11 @@
 * [Primeiros passos com o PHP](primeiros-passos-com-o-php.md)
 * [Trabalhando com HTML](trabalhando-com-html.md)
 * [Usando o PHP no terminal](usando-o-php-no-terminal.md)
+* [Boas práticas](boas-praticas/README.md)
+  * [Code Style](boas-praticas/code-style.md)
+  * [SOLID](boas-praticas/solid.md)
+  * [KISS](boas-praticas/kiss.md)
+  * [Object Calisthenics](boas-praticas/object-calisthenics.md)
+  * [Prepared Statements](boas-praticas/prepared-statements.md)
 * [Configurações](configuracoes.md)
 
