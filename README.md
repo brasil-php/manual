@@ -53,6 +53,10 @@ Em dezembro de 2015 foi lançada o PHP 7. Esta versão foi liderada principalmen
 
 {% embed url="https://medium.com/php-brasil" caption="Blog de posts da nossa comunidade" %}
 
+{% embed url="https://www.getrevue.co/profile/asemanaphp" caption="Newsletter semanal com tópicos relacionados ao ecossistema PHP" %}
+
+
+
 ## Interface de linha de comando
 
 O PHP é um motor de interpretação e tem uma interface de linha de comando que pode ser usada em diversos cenários. Para fazer uso do CLI é preciso ter o PHP instalado no dispositivo e expor o caminho de instalação nas variáveis de ambiente. Dessa forma é possível executar as instruções pelo terminal usando o comando `php`. No bloco de código abaixo temos um exemplo de uso do comando `php` usando a opção `-h` para mostrar o menu de ajuda \(a letra _h_ vem de _help_\).
